@@ -35,9 +35,7 @@ function App() {
         </button>
       </form>
     </div>
-    <div>
-      dfcbjgbjgkcfgffx
-    </div>
+   
     </>
   );
 }
