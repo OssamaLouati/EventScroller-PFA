@@ -1,5 +1,6 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
+import './App.scss';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages';
@@ -7,6 +8,7 @@ import About from './pages/about';
 import Services from './pages/services';
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
+import {Header} from './container';
 
 
 
@@ -25,12 +27,16 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Routes>
     </Router>
+    <Header />
     <div className="App">
-      <form action='../../post' method='post' className="form">
+      <form action='../../post' method='post' >
         <button type="submit">
             Connected?
         </button>
       </form>
+    </div>
+    <div>
+      dfcbjgbjgkcfgffx
     </div>
     </>
   );
