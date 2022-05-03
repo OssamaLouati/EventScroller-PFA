@@ -7,28 +7,13 @@ import About from './pages/about';
 import Services from './pages/services';
 import Contact from './pages/contact';
 import SignUp from './pages/signup';
-import {Header, Footer} from './container';
-
-
-
+import {Header, Footer, Slider} from './container';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import data from './data.js';
 
 
 function App() {
-    const [users, setUsers] = useState([])
-  
-    const fetchData = () => {
-      fetch("https://jsonplaceholder.typicode.com/users")
-        .then(response => {
-          return response.json()
-        })
-        .then(data => {
-          setUsers(data)
-        })
-    }
-  
-    useEffect(() => {
-      fetchData()
-    }, [])
 
   return (
     <>
@@ -46,6 +31,7 @@ function App() {
 
 
     <Header />
+    <Slider data = {data}/>
 
 
 
