@@ -3,23 +3,25 @@ import { NavLink as Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background:#102;
-  height: 60px;
-
+  background:linear-gradient(103.22deg, #381555 -13.86%, #6e2883 99.55%);
+  height:70px;
+  width:100%;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  padding: 0.5rem ;
   z-index: 10;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
 
+
 export const NavLink = styled(Link)`
   color: #fff;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 2rem;
   height: 100%;
   cursor: pointer;
   &.active {
@@ -43,12 +45,13 @@ export const Bars = styled(FaBars)`
 
 export const NavMenu = styled.div`
   display: flex;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
   align-items: center;
-  margin-right: -24px;
+  margin-right: 24px;
   /* Second Nav */
-  /* margin-right: 24px; */
+  /*margin-right: 24px;*/
   /* Third Nav */
-  /* width: 100vw;
+  width: 100vw;
   white-space: nowrap; */
   @media screen and (max-width: 768px) {
     display: none;
@@ -60,8 +63,8 @@ export const NavBtn = styled.nav`
   align-items: center;
   margin-right: 24px;
   /* Third Nav */
-  /* justify-content: flex-end;
-  width: 100vw; */
+   /*justify-content: flex-end;*/
+  width: 100vw; 
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -74,6 +77,7 @@ export const NavBtnLink = styled(Link)`
   color: #fff;
   outline: none;
   border: none;
+  width: 5vw;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;

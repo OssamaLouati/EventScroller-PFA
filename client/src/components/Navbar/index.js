@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to='/'>
-          <img src={require('../../images/favicon.ico')} alt='logo' />
+          <img src={require('../../images/logo.png')}  alt='logo' />
         </NavLink>
         <Bars />
         <NavMenu>
@@ -31,10 +31,9 @@ const Navbar = () => {
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-        </NavMenu>
-        <NavBtn>
           <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-        </NavBtn>
+        </NavMenu>
+        
       </Nav>
     </>
   );
