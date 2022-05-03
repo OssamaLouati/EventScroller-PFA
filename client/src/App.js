@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.scss';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -23,7 +23,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
         <Route path='/services' component={Services} />
-        <Route path='/contact-us' component={<Contact/>} />
+        <Route path='/contact-us' element={<Contact/>} />
         <Route path='/sign-up' component={SignUp} />
       </Routes>
     </Router>
