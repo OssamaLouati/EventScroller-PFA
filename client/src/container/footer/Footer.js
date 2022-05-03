@@ -9,17 +9,17 @@ const Footer = () => (
     </div>
 
     <div className="gpt3__footer-btn">
-      <p>Request Early Access</p>
+      <p>Get started here and now </p>
     </div>
 
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        <p>Finding and sharing activities with EventScroller<br/> <br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Overons</p>
+        <p>Overview</p>
         <p>Social Media</p>
         <p>Counters</p>
         <p>Contact</p>
@@ -32,14 +32,14 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p>website: www.EventScroller.com</p>
+        <p>phone: +212687425610</p>
+        <p>help: EventScroller.helpdesk@gmail.com</p>
       </div>
     </div>
 
     <div className="gpt3__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+      <p>@2022 EventScroller. All rights reserved.</p>
     </div>
   </div>
 );
