@@ -1,7 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
+//import ReactSearchBox from "react-search-box";
+
 import './index.scss';
-import { Button } from 'react-bootstrap';
+import { Form, FormControl,Button } from 'react-bootstrap';
 
 
 export default function MultipleItems({data}){
@@ -13,11 +15,38 @@ export default function MultipleItems({data}){
     slidesToScroll: 3
   };
   
-  
   return (
     <>
-    <div className="slider">
         <h2 className="titre"> Popular events this month</h2>
+        
+        <div className='searching'>
+          <Form className="d-flex">
+            search by:   
+              <FormControl
+                type="search"
+                placeholder="name"
+                className="me-2"
+                aria-label="Search"
+                />
+              <FormControl
+                type="search"
+                placeholder="city"
+                
+                className="me-2"
+                aria-label="Search"
+                />
+              <FormControl
+                type="date"
+                placeholder="date"
+                className="me-2"
+                aria-label="Search"
+                />
+
+              <Button variant="outline-success" className='search'>Search</Button>
+            </Form>
+          </div>
+    <div className="slider">
+        
         <Slider {...settings}>
             {data.map((item, index) => {
               return (

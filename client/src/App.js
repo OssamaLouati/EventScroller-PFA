@@ -28,9 +28,9 @@ function App() {
       </Routes>
     </Router>
 
-
-
     <Header />
+    
+
     <Slider data = {data}/>
 
 
