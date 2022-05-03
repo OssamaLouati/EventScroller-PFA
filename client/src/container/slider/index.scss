@@ -26,13 +26,14 @@
     color: rgb(242, 242, 242);
     width: 200px;
     font-family: var(--font-family);
-    
+    font-size: 15xp;
+    cursor: pointer;
     font-weight: 900;
-    background: linear-gradient(264.82deg, #8C17C3 -40.21%, #a115ff 111.11%);
+    background: linear-gradient(264.82deg, #bd8ad4 -40.21%, #a45dd3 111.11%);
     box-shadow: 0px 4px 15px rgba(228, 224, 224, 0.25);
-    border-radius: 20px;
+    border-radius: 10px;
     border: #15FFD5;
-    margin-left: 850px;
+    margin-left: 800px;
     margin-top: 50px;
 } 
 
@@ -62,7 +63,7 @@
             font-size: 50px;
             text-align: center;
             // background-color: #0a9e88;
-            margin-left: 90px;
+            margin-left: 140px;
             transition: all .1s ease;
             
             
@@ -143,7 +144,8 @@
                     object-fit: contain;
                 }
                 p{
-                    color: #309bac;
+                    color: #c0183d;
+                    font-family: var(--font-family);
                     font-weight: bold;
                 }
             }

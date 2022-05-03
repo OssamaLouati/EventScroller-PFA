@@ -34,7 +34,7 @@ export default function MultipleItems({data}){
     
                     <div>
                     <h2>{item.titre}</h2>
-                    <div className="card__container--inner--card--description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with d</div>
+                    <div className="card__container--inner--card--description">{item.description}</div>
                     </div>
                     
                     <div className="card__container--inner--card--price">prix: {item.prix}</div>
@@ -42,7 +42,11 @@ export default function MultipleItems({data}){
               );
             })}
         </Slider>
-        <Button className='consulter'>Explore more </Button>
+            <Button className='consulter'>Explore more Events</Button>
+      
+      
+    
+    
     </div>
     </>
   );

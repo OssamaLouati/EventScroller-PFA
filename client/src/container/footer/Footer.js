@@ -15,26 +15,26 @@ const Footer = () => (
     <div className="gpt3__footer-links">
       <div className="gpt3__footer-links_logo">
         <img src={gpt3Logo} alt="gpt3_logo" />
-        <p>Finding and sharing activities with EventScroller<br/> <br /> All Rights Reserved</p>
+        <p>Finding and sharing activities with EventScroller<br/> #StayHappening <br/><br /> All Rights Reserved</p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>Links</h4>
-        <p>Overview</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <h4>Discover Events</h4>
+        <p>Events for you</p>
+        <p>Virtual events</p>
+        <p>Get Event Updates</p>
+        <p>EventScroller app</p>
+      </div>
+      <div className="gpt3__footer-links_div">
+        <h4>Host Events</h4>
+        <p>Publish Your Events</p>
+        <p>Sell Tickets Online</p>
+        <p>Promote Your Events</p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
         <p>Contact</p>
-      </div>
-      <div className="gpt3__footer-links_div">
-        <h4>Get in touch</h4>
-        <p>website: www.EventScroller.com</p>
-        <p>phone: +212687425610</p>
-        <p>help: EventScroller.helpdesk@gmail.com</p>
       </div>
     </div>
 
