@@ -17,11 +17,11 @@ export default function MultipleItems({data}){
   
   return (
     <>
-        <h2 className="titre"> Popular events this month</h2>
+        <h2 className="titre"> Popular Events This Month</h2>
         
         <div className='searching'>
           <Form className="d-flex">
-            search by:   
+            Search By:   
               <FormControl
                 type="search"
                 placeholder="name"
@@ -41,8 +41,8 @@ export default function MultipleItems({data}){
                 className="me-2"
                 aria-label="Search"
                 />
-
               <Button variant="outline-success" className='search'>Search</Button>
+
             </Form>
           </div>
     <div className="slider">
@@ -66,7 +66,7 @@ export default function MultipleItems({data}){
                     <div className="card__container--inner--card--description">{item.description}</div>
                     </div>
                     
-                    <div className="card__container--inner--card--price">prix: {item.prix}</div>
+                    <div className="card__container--inner--card--price">price: {item.prix}</div>
                   </div>
               );
             })}

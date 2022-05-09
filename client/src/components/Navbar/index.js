@@ -4,7 +4,6 @@ import {
   NavLink,
   Bars,
   NavMenu,
-  NavBtn,
   NavBtnLink
 } from './NavbarElements';
 
@@ -17,17 +16,17 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to='/about' activeStyle>
-            About
+          <NavLink to='/Events' activeStyle>
+            Explore Events
           </NavLink>
-          <NavLink to='/services' activeStyle>
-            Services
+          <NavLink to='/chalendar' activeStyle>
+            Chalender
           </NavLink>
           <NavLink to='/contact-us' activeStyle>
             Contact Us
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
-            Sign Up
+          <NavLink to='/login' activeStyle>
+            Log in
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
