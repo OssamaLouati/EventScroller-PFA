@@ -6,7 +6,7 @@ app.get("/", (req,res) => {
 });
 
 app.post("/post", (req, res) => {
-    console.log("yaaaaaaaaayyy    Connected to React");
+    console.log("Your Connection to React is established now ");
     res.redirect("/");
   });
 

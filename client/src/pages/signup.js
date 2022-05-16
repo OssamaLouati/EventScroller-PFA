@@ -118,7 +118,7 @@ const SignUp = () => {
           </Confirme>
           <Button>Sign up</Button>
           <Linn>Already have an account?</Linn>
-          <Link to="/signup"><Lin >Login here </Lin></Link>
+          <Link to="/login"><Lin >Login here </Lin></Link>
         </Form>
       </Inside>
       

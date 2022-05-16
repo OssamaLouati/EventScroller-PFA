@@ -27,12 +27,12 @@ function App() {
 
     
 
-
+    <br/>
 
     <div className="App">
       <form action='../../post' method='post' >
         <button type="submit">
-            connect React JS to Node Js?
+            Tap to test connection between React JS to Node Js?
         </button>
       </form>
     </div>
@@ -44,6 +44,7 @@ function App() {
     
     
     </div>
+    <br/>
    <Footer />
     </div>
     
