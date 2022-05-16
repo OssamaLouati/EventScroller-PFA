@@ -6,40 +6,27 @@ import Home from './pages/home';
 import About from './pages/Events';
 import Login from './pages/login';
 import Contact from './pages/contact';
-import SignUp from './pages/signup';
-import Aboute from './components/About/Aboute';
-import {Header, Footer, Slider, Create} from './container';
+import Signup from './pages/signup';
+import {Footer} from './container';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import data from './data.js';
 
 function App() {
   return (
-    <>
+    <div>
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact element={<Home/>} />
         <Route path='/about' component={About} />
         <Route path='/login' element={<Login/> } />
         <Route path='/contact-us' element={<Contact/>} />
-        <Route path='/sign-up' component={SignUp} />
+        <Route path='/signup' element={<Signup/>} />
       </Routes>
     </Router>
 
-    <Header />
     
 
-    <Slider data = {data}/>
-    <br/>
-
-    <Create />
-
-    <br/>
-  <Aboute />
-    <br/>
-    <br/>
-    <br/>
 
 
     <div className="App">
@@ -54,14 +41,12 @@ function App() {
 
     <div>
     
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+    
     
     </div>
    <Footer />
-    </>
+    </div>
+    
   );
 }
 

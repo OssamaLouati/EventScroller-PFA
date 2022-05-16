@@ -30,7 +30,7 @@ const Navbar = () => {
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/signup'>Sign Up</NavBtnLink>
         </NavMenu>
         
       </Nav>

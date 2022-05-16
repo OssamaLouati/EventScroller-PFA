@@ -1,9 +1,9 @@
-import ph from './assets/images/e1.webp'
-import ph2 from './assets/images/e2.jpg'
-import ph3 from './assets/images/e3.webp'
-import ph4 from './assets/images/e4.webp'
-import ph5 from './assets/images/e5.webp'
-import ph6 from './assets/images/e6.webp'
+import ph from './images/e1.webp'
+import ph2 from './images/e2.jpg'
+import ph3 from './images/e3.webp'
+import ph4 from './images/e4.webp'
+import ph5 from './images/e5.webp'
+import ph6 from './images/e6.webp'
 
 
 const data = [
