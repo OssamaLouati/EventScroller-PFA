@@ -12,10 +12,10 @@ const ListItem = ({
     </header>
     <footer>
       <p>
-        <b>{serviceTime}</b> <span> Delivery Fee ${deliveryFee}</span>
+        <b>{serviceTime}</b> 
       </p>
       <p>
-        <b>${price}</b>
+        <b>{price} MAD</b>
       </p>
     </footer>
   </div>

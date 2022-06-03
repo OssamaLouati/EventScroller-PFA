@@ -1,5 +1,5 @@
 import React from 'react';
-import { categoryList, ratingList } from '../../../constants';
+import { categoryList, ratingList } from '../../../assets/constants';
 import CheckboxProton from '../../common/CheckboxProton';
 import FilterListToggle from '../../common/FilterListToggle';
 import SliderProton from '../../common/SliderProton';
@@ -25,7 +25,7 @@ const FilterPanel = ({
       />
     </div>
     <div className='input-group'>
-      <p className='label'>Cuisine</p>
+      <p className='label'>Type</p>
       {cuisines.map((cuisine) => (
         <CheckboxProton
           key={cuisine.id}
@@ -34,6 +34,7 @@ const FilterPanel = ({
         />
       ))}
     </div>
+    
     <div className='input-group'>
       <p className='label-range'>Price Range</p>
       <SliderProton value={selectedPrice} changePrice={changePrice} />
