@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../app.css";
 
 const Contact = () => {
@@ -6,7 +6,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const [loader, setLoader] = useState(false);
+  const [loader] = useState(false);
 
 
  

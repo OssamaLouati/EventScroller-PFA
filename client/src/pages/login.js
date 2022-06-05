@@ -1,5 +1,5 @@
+import React from "react";
 import styled from "styled-components";
-
 import {mobile} from "../responsive";
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const All = styled.div`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-    background: linear-gradient(103.22deg, #bd62c7 50.86%, #480555 180%);
+    background:linear-gradient(90deg, rgba(230,229,255,1) 0%, rgba(212,248,255,1) 100%);
       center;
 `;
 
@@ -91,26 +91,24 @@ const Linn = styled.a`
   cursor: pointer;
 `;
 
+
 const Login = () => {
+
   return (
     <div>
 
       
     <All>
-      
-
       <Inside>
-        
         <Title>Login</Title>
-        <Form>
-          <Input placeholder="Email address/ Phone number" />
-          <Input placeholder="Password" />
-          <Button>Login</Button>
+        <Form action="../../../login"method="post">
+          <Input type="text" name="email" placeholder="Email address/ Phone number" />
+          <Input type="password" name="password" placeholder="Password" />
+          <Button type="submit" >Login</Button>
           <Linn>You don't have an account yet?</Linn>
           <Link to="/signup"><Lin >Create an account </Lin></Link>
         </Form>
       </Inside>
-      
     </All>
       
     </div>
