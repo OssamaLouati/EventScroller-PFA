@@ -77,7 +77,7 @@ return (
               <Button className="button">Back</Button>
             </NavLink>
             <NavLink to={`/joint/${product.id}`}>
-              <Button className="button" >Join</Button>
+              <Button id ={product.id} product={product} className="button" >Join</Button>
             </NavLink>
             <br/>
             <br/>
