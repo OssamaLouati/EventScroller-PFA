@@ -56,7 +56,7 @@ export const dataList = [
     category: 'virtual',
     cuisine: 'forums',
     localisation:'rabat',
-    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
+    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs  accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
     rating: 4,
     price: 0,
     coverSrc: ph,
@@ -65,6 +65,7 @@ export const dataList = [
     id: 1,
     title: 'Expopharma 2022',
     serviceTime: '09 MAY',
+    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs  accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
     localisation:'casablanca',
     category: 'virtual',
     cuisine: 'conferences',
@@ -77,6 +78,8 @@ export const dataList = [
     title: 'Concert de SARO (Hip-Hop/Rap/R B) / (Electro)',
     serviceTime: '17 MAY',
     category: 'virtual',
+    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs  accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
+
     localisation:'fes',
     cuisine: 'music',
     rating: 3,
@@ -93,6 +96,8 @@ export const dataList = [
     rating: 1,
     price: 200,
     coverSrc: ph4,
+    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs  accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
+
   },
   {
     id: 5,
@@ -104,6 +109,8 @@ export const dataList = [
     rating: 5,
     price: 100,
     coverSrc: ph5,
+    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs  accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
+
   },
  
   {
@@ -116,6 +123,8 @@ export const dataList = [
     rating: 5,
     price: 350,
     coverSrc: ph6,
+    description: "A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs A la recherche d’un emploi, d’un stage ou d’un master ? L’Ecole Mohammadia d’Ingénieurs  accueille les 11, 12 et 13 mai 2022 la XXVIIIème édition du Forum EMI-Entreprises : l’occasion de rencontrer les représentants des plus grandes entreprises nationales et internationales de tous secteurs d’activité : Conseil, Banque, Assurance, BTP, Industries, Services, Télécoms, Transports...",
+
   },
 
 ];
