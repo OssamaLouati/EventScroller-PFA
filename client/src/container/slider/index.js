@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
-//import ReactSearchBox from "react-search-box";
-
+import { dataList } from "../../assets/constants";
 import './index.scss';
+import { NavLink } from 'react-router-dom';
 import { Form, FormControl,Button } from 'react-bootstrap';
 
 
@@ -14,6 +14,8 @@ export default function MultipleItems({data}){
     slidesToShow: 4,
     slidesToScroll: 3
   };
+
+  const [ev, setEv]=useState(dataList);
   
   return (
     <>
@@ -50,6 +52,7 @@ export default function MultipleItems({data}){
         <Slider {...settings}>
             {data.map((item, index) => {
               return (
+                <NavLink to={`/event/2`}>
                 <div className="card__container--inner--card"
                 key={index}>
                     
@@ -68,6 +71,7 @@ export default function MultipleItems({data}){
                     
                     <div className="card__container--inner--card--price">price: {item.prix}</div>
                   </div>
+            </NavLink>
               );
             })}
         </Slider>

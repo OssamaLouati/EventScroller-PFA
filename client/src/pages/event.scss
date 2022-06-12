@@ -1,3 +1,12 @@
+.all{
+  background-color: var(--font-family);
+}
+
+
+
+
+
+
 .btnretour 
     {
     flex: 0.3;
@@ -47,6 +56,9 @@
     transition: transform 0.3s ease;
   
  
+}
+.bobo{
+  margin-top: 50px;
 }
 .btnjoint:hover {
     content: "";
