@@ -16,6 +16,7 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
+        <NavLink style={{textDecoration: 'underline', "color": "red"}} to='/signup'>Create Event</NavLink>
           <NavLink to='/Events' activeStyle>
             Explore Events
           </NavLink>

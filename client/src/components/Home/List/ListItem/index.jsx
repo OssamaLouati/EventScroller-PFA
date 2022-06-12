@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.css';
 
 const ListItem = ({
-  item: { coverSrc, title, price, deliveryFee, serviceTime, rating },
+  item: { coverSrc, title, price, serviceTime, rating },
 }) => (
   <div className='listItem-wrap'>
     <img src={coverSrc} alt='' />

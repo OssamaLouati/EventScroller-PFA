@@ -27,10 +27,7 @@ width: 45%;
 text-align: center;
 padding: 20px;
 background-color: hsl(213deg ,85% ,97%);
-box-shadow: 0px 1px 2px 0px rgba(0,205,255,0.7),
-            1px 2px 4px 0px rgba(0,205,255,0.7),
-            2px 4px 8px 0px rgba(0,205,255,0.7),
-            2px 4px 16px 0px rgba(0,205,255,0.7);
+
 ${mobile({ width: "75%" })}
 `;
 
@@ -52,9 +49,9 @@ const Form = styled.form`
 const Input = styled.input`
   flex: 1;
   width: 80%;
-  border:none;
-  box-shadow: 0 0 2em hsl(231deg, 62%, 94%);
-  border-color: inherit;
+ border:none;
+  box-shadow: 0 0 2em hsl(131deg, 62%, 94%);
+  
   border-radius: 20px;
   margin: 10px 0 ;
   padding: 10px;
@@ -93,6 +90,11 @@ const Linn = styled.a`
 
 
 const Login = () => {
+/*  if (typeof errors != 'undefined') {
+    errors.forEach(error => {
+      error.message
+    })
+  }*/
 
   return (
     <div>

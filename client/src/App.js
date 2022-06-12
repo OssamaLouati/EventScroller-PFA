@@ -3,8 +3,9 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
-import About from './pages/Events';
+import About from './pages/about';
 import Login from './pages/login';
+import Event from './pages/Event';
 import Filter from './pages/Filter';
 import Contact from './pages/contact';
 import Signup from './pages/signup';
@@ -15,41 +16,23 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <div>
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/' exact element={<Home/>} />
-        <Route path='/about' component={About} />
-        <Route path='/login' element={<Login/> } />
-        <Route path='/Events' element={<Filter/>} />
-        <Route path='/contact-us' element={<Contact/>} />
-        <Route path='/signup' element={<Signup/>} />
-      </Routes>
-    </Router>
 
-    
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' exact element={<Home/>} />
+          <Route path='/about' component={About} />
+          <Route path='/login' element={<Login/> } />
+          <Route path='/Events' element={<Filter/>} />
+          <Route path='/contact-us' element={<Contact/>} />
+          <Route path='/signup' element={<Signup/>} />
+          <Route exact path="/event/:id" element={<Event/>} />
+        </Routes>
+      </Router>
 
-    <br/>
+      <Footer />
 
-    <div className="App">
-      <form action='../../post' method='post' >
-        <button type="submit">
-            Tap to test connection between React JS to Node Js?
-        </button>
-      </form>
-    </div>
-    <div>
-    </div>
-
-    <div>
-    
-    
-    
-    </div>
-    <br/>
-   <Footer />
-    </div>
-    
+    </div>  
   );
 }
 

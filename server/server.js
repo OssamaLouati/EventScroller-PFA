@@ -72,11 +72,10 @@ app.post('/login', function(request, response) {
 				request.session.loggedin = true;
 				request.session.email = email;
 				console.log("login good");
-        response.redirect("/");
+        		response.redirect("/");
 			} else {
-				errors.push({ message: "Wrong Password / email,  try again!" });
 				console.log("login bad");
-        response.redirect("/");
+				response.redirect("/");
 			}			
 			response.end(); 
 		});
@@ -86,6 +85,14 @@ app.post('/login', function(request, response) {
 	}
 });
 
+app.post('logout', (req, res)=> {
+	req.logout();
+	req.session.loggedin = false;
+	res.redirect("/");
+});
+
+
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, console.log(`Server starting on port ${PORT}`));
+

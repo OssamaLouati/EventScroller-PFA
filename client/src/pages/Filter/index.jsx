@@ -17,6 +17,12 @@ const Filter = () => {
     { id: 3, checked: false, label: 'Forums' },
   ]);
 
+  const [localisation, setLocalisation] = useState([
+    { id: 1, checked: false, label: 'Rabat' },
+    { id: 2, checked: false, label: 'Casablanca' },
+    { id: 3, checked: false, label: 'Fes' },
+  ]);
+
  
 
   const [list, setList] = useState(dataList);
@@ -35,6 +41,14 @@ const Filter = () => {
       item.id === id ? { ...item, checked: !item.checked } : item
     );
     setCuisines(changeCheckedCuisines);
+  };
+
+  const handleChangeChecked1 = (id) => {
+    const localisationStateList = localisation;
+    const changeCheckedLocalisation = localisationStateList.map((item) =>
+      item.id === id ? { ...item, checked: !item.checked } : item
+    );
+    setLocalisation(changeCheckedLocalisation);
   };
 
 
@@ -72,6 +86,17 @@ const Filter = () => {
           cuisinesChecked.includes(item.cuisine)
         );
       }
+
+      // localisation Filter
+      const localisationChecked = localisation
+      .filter((item) => item.checked)
+      .map((item) => item.label.toLowerCase());
+      
+      if (localisationChecked.length) {
+        updatedList = updatedList.filter((item) =>
+        localisationChecked.includes(item.localisation)
+        );
+      }
   
   
       // Search Filter
@@ -96,7 +121,7 @@ const Filter = () => {
       !updatedList.length ? setResultsFound(false) : setResultsFound(true);
     };
     applyFilters();
-  }, [selectedRating, selectedCategory, cuisines,  searchInput, selectedPrice]);
+  }, [selectedRating, selectedCategory, cuisines, localisation,  searchInput, selectedPrice]);
 
   return (
     <div className='home'>
@@ -116,6 +141,8 @@ const Filter = () => {
             selectRating={handleSelectRating}
             cuisines={cuisines}
             changeChecked={handleChangeChecked}
+            localisation={localisation}
+            changeChecked1={handleChangeChecked1}
             changePrice={handleChangePrice}
           />
         </div>
