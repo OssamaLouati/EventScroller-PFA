@@ -75,8 +75,9 @@ export default function MultipleItems({data}){
               );
             })}
         </Slider>
+        <NavLink to={'/events'}>
             <Button className='consulter'>Explore more Events</Button>
-      
+        </NavLink>
       
     
     

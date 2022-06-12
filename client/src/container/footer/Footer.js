@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import gpt3Logo from '../../logo0.svg';
 import './footer.css';
 
@@ -8,6 +9,7 @@ const Footer = () => (
       <h1 className="gradient__text">Do you want to step in to the future before others</h1>
     </div>
 
+      
     <div className="gpt3__footer-btn">
       <p>Get started here and now </p>
     </div>
