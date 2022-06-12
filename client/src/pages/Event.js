@@ -72,6 +72,7 @@ return (
                 
           {/* buttons */}
 
+        </div>
           <div>
             <NavLink to="/events">
               <Button className="button">Back</Button>
@@ -86,9 +87,12 @@ return (
             <br/>
             
           </div>
-        </div>
       </div>
     </div>  
+    <br/>
+    <br/>
+    <br/>
+    <br/>
   </>
   );
 };

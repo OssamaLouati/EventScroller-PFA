@@ -5,7 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
 import Login from './pages/login';
-import Event from './pages/Event';
+import Event from './pages/event';
+import Joint from './pages/joint';
 import Filter from './pages/Filter';
 import Contact from './pages/contact';
 import Signup from './pages/signup';
@@ -27,6 +28,7 @@ function App() {
           <Route path='/contact-us' element={<Contact/>} />
           <Route path='/signup' element={<Signup/>} />
           <Route exact path="/event/:id" element={<Event/>} />
+          <Route exact path="/joint/:id" element={<Joint/>} />
         </Routes>
       </Router>
 

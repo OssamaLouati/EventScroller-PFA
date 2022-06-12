@@ -1,20 +1,24 @@
 .bobo{
   /* fallback for old browsers *  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color:#2C5364;
-  }
-
+  width: 70%;
+  justify-content: center;
+  -webkit-box-shadow: 0px 0px 67px -9px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 67px -9px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 67px -9px rgba(0,0,0,0.5);  
+  margin-left: px;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+}
 .title{
   text-align: center;
   margin-top: 30px;
-  text-decoration: underline;
   margin-bottom: 50px;
 }  
 .img88{
     display: block;
-    margin-left: auto;
-    justify-items: center;
-    align-items: center;
-    margin-right: auto;
+    margin-left: 150px;
     width: 70%;
     height: auto;
 }
@@ -31,8 +35,8 @@
 }
 
 .button {
-  margin-left: 140px;
-  margin-right: 400px;
+  margin-left: 50px;
+  margin-right: 300px;
   padding: 1.3em 3em;
   font-size: 12px;
   text-transform: uppercase;
