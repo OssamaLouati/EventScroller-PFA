@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import { Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { dataList } from "../assets/constants";
 import { useParams } from "react-router-dom";
+import Paypal from "../components/paypal/paypal";
 import "./event.scss";
 
 
@@ -10,16 +11,16 @@ const Event=() =>{
   const prodid=useParams();
   const proDetail=dataList.filter(x=>x.id == prodid.id);
   const product=proDetail[0];
-  console.log(product);
-  
+  const [checkout, setCheckOut] = useState(false);  
 return (
     <>
       <div className="bobo">
           {/* title */}
+
           <div className="title">
               <h1>{product.title}</h1>
           </div>
-
+          
           <div className="img88">
             <h3>Created by :  </h3>
             <div className="imguser">
@@ -77,9 +78,15 @@ return (
             <NavLink to="/events">
               <Button className="button">Back</Button>
             </NavLink>
-            <NavLink to={`/joint/${product.id}`}>
-              <Button id ={product.id} product={product} className="button" >Join</Button>
-            </NavLink>
+            
+            {checkout ? (
+              <Paypal />
+              ) : (
+                <button className='button'
+                    onClick={() => {setCheckOut(true);}
+            }>  buy online </button>
+
+      )}
             <br/>
             <br/>
             <br/>

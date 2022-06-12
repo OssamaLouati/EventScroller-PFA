@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import photo from '../../assets/images/logoh.svg';
 
 import  './index.scss';
@@ -21,9 +22,9 @@ const Header = () => (
       <br/>
 
       <div className="gpt3__header-content__input">
-        
-        <button type="button">Get started for free</button>
-
+      <NavLink style={{textDecoration: 'none'}} to={'/events'}>  
+        <button className="gpt3__header-content__input" type="button">Get started for free</button>
+      </NavLink>
       </div>
 
       

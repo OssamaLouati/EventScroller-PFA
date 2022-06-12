@@ -12,11 +12,13 @@ const Contact = () => {
  
 
   return (
-    <form className="form" >
+    <form className="form" action="https://formcarry.com/s/rPThXZod5rm" method="POST" accept-charset="UTF-8">
       <h1>Contact Us 🤳</h1>
 
       <label>Name</label>
       <input
+      type="text"
+      name="name"
         placeholder="Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
@@ -24,17 +26,20 @@ const Contact = () => {
 
       <label>Email</label>
       <input
+      name="email"
+      type="email"
         placeholder="Email"
         value={email}
-        onChange={(e) => setEmail(e.target.value)}
       />
 
       <label>Message</label>
-      <textarea
+      <input
+      name="message"
+      
         placeholder="Message"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-      ></textarea>
+      ></input>
 
       <button
         type="submit"

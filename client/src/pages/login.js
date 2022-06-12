@@ -16,9 +16,9 @@ const All = styled.div`
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
-    background:linear-gradient(90deg, rgba(230,229,255,1) 0%, rgba(212,248,255,1) 100%);
-      center;
+
+  background:linear-gradient(90deg, rgba(230,229,255,1) 0%, rgba(212,248,255,1) 100%);   
+  center;
 `;
 
 const Inside = styled.div`
@@ -83,7 +83,7 @@ const Lin = styled.a`
 `;
 const Linn = styled.a`
   margin: 5px 0px;
-  font-size: 10px;
+  font-size: 15px;
   font-family: arial;
   cursor: pointer;
 `;

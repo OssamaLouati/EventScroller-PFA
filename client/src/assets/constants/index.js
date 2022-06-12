@@ -48,6 +48,7 @@ export const ratingList = [
 
 
 
+
 export const dataList = [
   {
     id: 2,

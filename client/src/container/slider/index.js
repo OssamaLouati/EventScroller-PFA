@@ -52,7 +52,7 @@ export default function MultipleItems({data}){
         <Slider {...settings}>
             {data.map((item, index) => {
               return (
-                <NavLink to={`/event/2`}>
+                <NavLink to={`/event/${item.id}`}>
                 <div className="card__container--inner--card"
                 key={index}>
                     
