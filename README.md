@@ -114,7 +114,12 @@ You need first to install the modules using npm command:
    ```
 4. Run the local server in `Terminal`
    ```cmd
-   nodemon app
+   cd client
+   npm start
+   ```
+   ```cmd
+   cd server
+   nodemon server
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
