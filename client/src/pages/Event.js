@@ -12,6 +12,7 @@ const Event=() =>{
   const proDetail=dataList.filter(x=>x.id == prodid.id);
   const product=proDetail[0];
   const [checkout, setCheckOut] = useState(false);  
+
 return (
     <>
       <div className="bobo">

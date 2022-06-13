@@ -63,19 +63,19 @@ app.post('/login', function(request, response) {
 
 	var email = request.body.email;
 	var password = request.body.password;
-  console.log(email);
-  console.log(password);
-	
+  	console.log(email);
+  	console.log(password);
+
 	if (email && password) {
 		db.query('SELECT * FROM users WHERE email = ? AND password = ?', [email, password], function(error, results, fields) {
 			if (results.length > 0) {
 				request.session.loggedin = true;
 				request.session.email = email;
-				console.log("login good");
+				console.log("Your informations are correct");
         		response.redirect("/");
 			} else {
-				console.log("login bad");
-				response.redirect("/");
+				console.log("Your informations are correct");
+				response.redirect("/loginBad");
 			}			
 			response.end(); 
 		});
