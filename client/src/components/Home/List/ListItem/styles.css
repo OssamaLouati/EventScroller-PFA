@@ -1,7 +1,7 @@
 .listItem-wrap img {
   width: 100%;
   border-radius: 15px;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 .listItem-wrap header {

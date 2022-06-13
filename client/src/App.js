@@ -6,7 +6,7 @@ import Home from './pages/home';
 import About from './pages/about';
 import Login from './pages/login';
 import Event from './pages/event';
-import Joint from './pages/joint';
+import CreateEvent from './pages/createEvent';
 import Filter from './pages/Filter';
 import Contact from './pages/contact';
 import Signup from './pages/signup';
@@ -28,7 +28,7 @@ function App() {
           <Route path='/contact-us' element={<Contact/>} />
           <Route path='/signup' element={<Signup/>} />
           <Route exact path="/event/:id" element={<Event/>} />
-          <Route exact path="/joint/:id" element={<Joint/>} />
+          <Route path="/createEvent" element={<CreateEvent/>} />
         </Routes>
       </Router>
 
