@@ -62,9 +62,7 @@
 </div>  
 <br>
 <br>
-Many engineering students at the INPT encounter difficulties
-in terms of registration in clubs associated with the institute. Registration is currently being done by through the “Google Forms” tool which generates trunk organizations and inconsistencies.
-To remedy this problem, we will design and develop a web solution allowing the management of registrations to the different clubs within the INPT.
+EventScroller is a web application that allows its users to meet new people, learn new things, find help, get out of their comfort zone and pursue their passions together.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -72,10 +70,10 @@ To remedy this problem, we will design and develop a web solution allowing the m
 
 ### Built With
 
-the management of registrations to the various clubs within
-INPT using the following technologies:
+EventScroller has been built with the following technologies:
 
 * [Node.js](https://nodejs.org/)
+* [React.js](https://reactjs.org/)
 * [Xammp](https://www.apachefriends.org/fr/index.html)
 * [Bootstrap](https://getbootstrap.com)
 * [Embedded-javascript](https://ejs.co/)
@@ -90,35 +88,17 @@ INPT using the following technologies:
 
 ### Prerequisites
 
-You need first to install those modules using npm command:
+You need first to install the modules using npm command:
 * npm
   ```sh
-  npm install body-parser
+  cd client
+  npm install
   ```
   ```sh
-  npm install dotenv
+  cd server
+  npm install
   ```
-  ```sh
-  npm install ejs
-  ```
-  ```sh
-  npm install express
-  ```
-  ```sh
-  npm install express-flash
-  ```
-  ```sh
-  npm install express-session
-  ```
-  ```sh
-  npm install mysql
-  ```
-  ```sh
-  npm install nodemon
-  ```
-  ```sh
-  npm install passport passport-local
-  ```
+  
 
 ### Installation
 
@@ -126,7 +106,7 @@ You need first to install those modules using npm command:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/OssamaLouati Clubs-Registration-at-INPT.git
+   git clone https://github.com/OssamaLouati/EventScroller-PFA.git
    ```
 2. Install NPM packages
    ```sh
@@ -150,7 +130,7 @@ You need first to install those modules using npm command:
 
 Oussama Louati - louati.oussama@ine.inpt.ma
 
-Project Link: [https://github.com/OssamaLouati/Clubs-Registration-at-INPT](https://github.com/OssamaLouati/Clubs-Registration-at-INPT)
+Project Link: [https://github.com/OssamaLouati/EventScroller-PFAT](https://github.com/OssamaLouati/EventScroller-PFA)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
