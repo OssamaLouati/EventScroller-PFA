@@ -7,21 +7,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="/views/images/logo.PNG" alt="Logo" >
+  <a href="https://github.com/OssamaLouati/EventScroller-PFA">
+    <img src="./client/src/assets/project/logo.png" alt="Logo" >
   </a>
 
-  <h3 align="center">P.INE</h3>
+  <h3 align="center">EventScroller</h3>
 
   <p align="center">
-    A simple web solution for INPT's Club Registration
+    A simple web solution for sharing and finding activities
     <br />
-    <a href="https://github.com/OssamaLouati/Clubs-Registration-at-INPT"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/OssamaLouati/EventScroller-PFA"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OssamaLouati/Clubs-Registration-at-INPT/issues">Report Bug</a>
+    <a href="https://github.com/OssamaLouati/EventScroller-PFA/issues">Report Bug</a>
     ·
-    <a href="https://github.com/OssamaLouati/Clubs-Registration-at-INPT/issues">Request Feature</a>
+    <a href="https://github.com/OssamaLouati/EventScroller-PFA/issues">Request Feature</a>
   </p>
 </div>
 
@@ -53,7 +53,7 @@
 ## About The Project
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/OssamaLouati/EventScroller-PFA">
     <img src="/views/images/Cap1.PNG" alt="Logo">
     <img src="/views/images/cap2.PNG" alt="Logo">
     <img src="/views/images/screenshot.png" alt="Logo">
