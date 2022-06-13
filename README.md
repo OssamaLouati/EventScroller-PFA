@@ -54,10 +54,10 @@
 
 <div align="center">
   <a href="https://github.com/OssamaLouati/EventScroller-PFA">
-    <img src="./client/src/assets/project/landing.PNG alt="Logo">
+    <img src="./client/src/assets/project/landing.PNG" alt="Logo">
     <img src="./client/src/assets/project/slider.PNG" alt="Logo">
-    <img src="./client/src/assets/project/filtrage" alt="Logo">
-    <img src="./client/src/assets/project/footer" alt="Logo">
+    <img src="./client/src/assets/project/filtrage.PNG" alt="Logo">
+    <img src="./client/src/assets/project/footer.PNG" alt="Logo">
   </a>
 </div>  
 <br>
