@@ -77,7 +77,7 @@ return (
         </div>
           <div>
             <NavLink to="/events">
-              <Button className="button">Back</Button>
+              <Button className="button">All Events</Button>
             </NavLink>
             
             {checkout ? (
