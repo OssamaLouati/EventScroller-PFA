@@ -26,7 +26,9 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-
+.do{
+  background-color: var(--font-family);
+}
 
 :root {
   --font-family: 'Manrope', sans-serif;
