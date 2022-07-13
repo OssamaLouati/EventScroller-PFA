@@ -55,10 +55,11 @@ const Filter = () => {
   const handleChangePrice = (event, value) => {
     setSelectedPrice(value);
   };
-
+  
   
 
   useEffect(() => {
+    document.body.style.zoom = "80%";
     const applyFilters = () => {
       let updatedList = dataList;
   

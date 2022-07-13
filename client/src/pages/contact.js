@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "../app.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+  const [email] = useState("");
   const [message, setMessage] = useState("");
 
   const [loader] = useState(false);
-
+  useEffect(() => {
+    document.body.style.zoom = "80%";
+  }, []);
 
  
 

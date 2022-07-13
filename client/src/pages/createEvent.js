@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./styles.css";
 
 const CreateEvent = () => {
+  useEffect(() => {
+    document.body.style.zoom = "80%";
+  }, []);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",

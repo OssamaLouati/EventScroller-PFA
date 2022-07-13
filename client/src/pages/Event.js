@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState,useEffect} from "react";
 import { Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { dataList } from "../assets/constants";
@@ -12,6 +12,9 @@ const Event=() =>{
   const proDetail=dataList.filter(x=>x.id == prodid.id);
   const product=proDetail[0];
   const [checkout, setCheckOut] = useState(false);  
+  useEffect(() => {
+    document.body.style.zoom = "100%";
+  }, []);
 
 return (
     <>

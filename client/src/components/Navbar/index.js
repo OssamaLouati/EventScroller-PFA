@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import {
   Nav,
   NavLink,
@@ -8,6 +8,9 @@ import {
 } from './NavbarElements';
 
 const Navbar = () => {
+  useEffect(() => {
+    document.body.style.zoom = "100%";
+  }, []);
   return (
     <>
       <Nav>

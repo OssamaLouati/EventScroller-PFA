@@ -1,5 +1,4 @@
-import React from 'react';
-import './App.scss';
+import React, {useEffect} from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
@@ -11,10 +10,16 @@ import LoginB from './pages/loginBad';
 import Contact from './pages/contact';
 import Signup from './pages/signup';
 import {Footer} from './container';
+import './App.scss';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
+
+  useEffect(() => {
+    document.body.style.zoom = "80%";
+  }, []);
+
   return (
     <div>
 
