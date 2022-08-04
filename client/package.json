@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://127.0.0.1:8080/",
+  "engines" : { 
+    "npm" : ">=8.1.2",
+    "node" : ">=16.13.1"
+  },
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
